@@ -7,8 +7,8 @@ policy_assignments_to_remove: [
   # Deploy-MDFC-DefSQL-AMA,
   # Deploy-VM-ChangeTrack,
   # Deploy-VM-Monitoring,
-  # Deploy-vmArc-ChangeTrack,
-  # Deploy-vmHybr-Monitoring,
+  Deploy-vmArc-ChangeTrack,
+  Deploy-vmHybr-Monitoring,
   # Deploy-VMSS-ChangeTrack,
   # Deploy-VMSS-Monitoring,
 ]
