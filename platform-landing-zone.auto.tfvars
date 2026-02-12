@@ -55,14 +55,14 @@ custom_replacements = {
     ddos_protection_plan_enabled = false
 
     # Resource provisioning primary connectivity
-    primary_firewall_enabled                              = true
-    primary_virtual_network_gateway_express_route_enabled = true
-    primary_virtual_network_gateway_vpn_enabled           = true
+    primary_firewall_enabled                              = false
+    primary_virtual_network_gateway_express_route_enabled = false
+    primary_virtual_network_gateway_vpn_enabled           = false
     primary_private_dns_zones_enabled                     = false
     primary_private_dns_auto_registration_zone_enabled    = false
     primary_private_dns_resolver_enabled                  = false
     primary_bastion_enabled                               = false
-    primary_sidecar_virtual_network_enabled               = true
+    primary_sidecar_virtual_network_enabled               = false
 
     # Resource names primary connectivity
     primary_hub_name                                   = "vwan-hub-$${starter_location_01}"
@@ -366,4 +366,5 @@ telemetry_additional_content = {
   deployed_by    = "alz-terraform-accelerator"
   correlation_id = "00000000-0000-0000-0000-000000000000"
 }
+
 
